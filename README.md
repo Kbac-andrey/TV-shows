@@ -65,10 +65,10 @@ npm run dev
 
 ## Additional Features
 
-- \*\*Filtering\*\*: Enhance user experience by adding functionality to filter TV shows by rating, year, and other criteria.
-- \*\*Favorite Shows\*\*: Allow users to mark their favorite shows and save them for later viewing.
-- \*\*Watchlist\*\*: Allow users to create a watchlist of shows they intend to watch.
-- \*\*More Unit Tests\*\*: Expand test coverage to ensure the robustness of the application.
+- Filtering: Enhance user experience by adding functionality to filter TV shows by rating, year, and other criteria.
+- Favorite Shows: Allow users to mark their favorite shows and save them for later viewing.
+- Watchlist: Allow users to create a watchlist of shows they intend to watch.
+- More Unit Tests: Expand test coverage to ensure the robustness of the application.
 
 ## Conclusion
 
