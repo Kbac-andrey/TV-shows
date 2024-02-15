@@ -35,14 +35,14 @@ Key architectural decisions:
 
 ### Running the Application
 
+Clone the repository:
 
-1. Clone the repository:<pre><div class="dark bg-gray-950 rounded-md"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><br class="Apple-interchange-newline"/></div></div></pre>
-
-```sh
+```
 git@github.com:Kbac-andrey/TV-shows.git
 ```
 
-2. Navigate to the project directory:
+
+Navigate to the project directory:
 
 ```
 cd TV-shows 
@@ -63,15 +63,12 @@ npm run dev
 * **Filtering** by genre.
 * **search** TV Show
 
-
 ## Additional Features
-
 
 - \*\*Filtering\*\*: Enhance user experience by adding functionality to filter TV shows by rating, year, and other criteria.
 - \*\*Favorite Shows\*\*: Allow users to mark their favorite shows and save them for later viewing.
 - \*\*Watchlist\*\*: Allow users to create a watchlist of shows they intend to watch.
 - \*\*More Unit Tests\*\*: Expand test coverage to ensure the robustness of the application.
-
 
 ## Conclusion
 
