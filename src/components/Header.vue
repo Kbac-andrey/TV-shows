@@ -24,7 +24,6 @@ watchDebounced(
 const handleGenreValue = (genre) => {
   state.selectedGenre = genre;
   state.filterByGender();
-  state.genres =  [ALL_TV_SHOWS, ...state.genres];
 }
 </script>
 

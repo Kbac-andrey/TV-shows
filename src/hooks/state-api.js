@@ -14,6 +14,7 @@ import { reactive, watchEffect } from 'vue';
         state.genreCollection = allMovies;
         return;
       }
+
       const key = state.selectedGenre;
       state.genreCollection = {[key]: allMovies[state.selectedGenre]};
     },
@@ -53,13 +54,14 @@ import { reactive, watchEffect } from 'vue';
       if (!collection) {
         return;
       }
-      state.genres =  [state.selectedGenre,...Object.keys(collection)];
+
+      state.genres =  [ALL_TV_SHOWS, ...Object.keys(collection)];
     }
   });
 
 watchEffect(() => {
     const MOVIE_API_URL = `https://api.tvmaze.com/shows`;
-    const MOVIE_API_SEARCH = `https://api.tvmaze.com/search/shows?q=:${state.query}`;
+    const MOVIE_API_SEARCH = `https://api.tvmaze.com/search/shows?q=${state.query}`;
 
     fetch(state.query.length ? MOVIE_API_SEARCH: MOVIE_API_URL)
       .then(response => response.json())
